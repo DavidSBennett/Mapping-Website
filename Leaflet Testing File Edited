@@ -44,15 +44,15 @@ L.tileLayer('http://a.tile.cloudmade.com/d0070b9fb9c74e398e68d5b7084ce32c/8/256/
 
 var marker1 = L.marker([30.222, -92.0200]).addTo(map);
 
-marker1.bindPopup("<b>David S. Bennett</b><br>Lansing, Michigan").closePopup();
+marker1.bindPopup("<b>David S. Bennett</b><br>Lafayette, Louisiana").openPopup();
 
 var marker2 = L.marker([42.732, -84.511]).addTo(map);
 
-marker2.bindPopup("<b>Adam Haviland</b><br>Lafayette, Louisiana").closePopup();
+marker2.bindPopup("<b>Adam Haviland</b><br>Lansing, Michigan").openPopup();
 
 var marker3 = L.marker([30.322, -92.0200]).addTo(map);
 
-marker3.bindPopup("<b>Andrew LoPinto</b><br>Lafayette, Louisiana").closePopup();
+marker3.bindPopup("<b>Andrew LoPinto</b><br>UnKnown").openPopup();
 
 </script>
 
